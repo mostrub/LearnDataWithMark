@@ -8,7 +8,7 @@ packages = [{include = "vector_search_llm"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-langchain = {extras = ["llm"], version = "^0.0.266"}
+langchain = {extras = ["llm"], version = "^0.3.7"}
 wikipedia = "^1.4.0"
 chromadb = "^0.4.6"
 openai = "^0.27.8"
